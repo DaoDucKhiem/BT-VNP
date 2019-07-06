@@ -3,9 +3,9 @@
 Làm giao diện theo wireframe
 * Thực hiện bởi Đào Đức Khiêm
 
-Liên lết Github Page: [github](http://Oderonline.herokuapp.com)
-* Liên kết đề bài: [đề bài](https://www.lucidchart.com/pages/templates/wireframe/ecommerce-wireframe-template)
-* Liên kết học liệu:  [tutorials](http://tutorials.codebar.i)
+* Bài làm: [github](https://daoduckhiem.github.io/HTML-CSS-Basic/)
+* Đề bài: [đề bài](https://www.lucidchart.com/pages/templates/wireframe/ecommerce-wireframe-template)
+* Học liệu:  [tutorials](http://tutorials.codebar.io)
 
 Kiến thức đã nắm được:
 * Các thẻ HTML cơ bản, cách dùng và ý nghĩa.
