@@ -194,6 +194,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 .footer a {
     display: block;
+    text-decoration: none;
 }
 
 .footer {
