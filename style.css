@@ -6,13 +6,17 @@ body {
     line-height: 1.254;
     color: #333;
     width: 100%;
-    min-width: 1150px;
+    min-width: 1160px;
 }
 
 header {
     background-color: rgb(15, 14, 13);
     padding: 15px 15px;
     padding-bottom: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 .form-group {
@@ -74,7 +78,6 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
 
 li.dropdown {
@@ -100,7 +103,7 @@ li.dropdown {
 
 .dropdown-content a:hover {
     background-color: blue;
-    color:white;
+    color: white;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -127,58 +130,68 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 .row {
+    padding: 50px;
     display: flex;
 }
 
 .col {
-    padding: 0 15px;
+    padding: 0 20px;
     flex: 1;
 }
 
 .grip-container {
     display: grid;
-    grid-gap: 10px;
+    grid-column-gap: 18px;
+    grid-row-gap: 30px;
     grid-template-columns: auto auto;
 }
 
-.heading-grip {
-    grid-column: 1 / span 2;
-}
-
 .image-department {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 150px;
 }
 
 .image-shop {
     display: block;
     margin: 0 auto;
-    width: 90%;
-    height: 70%;
+    width: 100%;
+    height: 65%;
 }
 
 .image-deal {
     display: block;
-    width: 90%;
+    width: 100%;
     height: 60%;
-}
-
-.col p {
-    margin: 0;
-    height: 10%;
 }
 
 .col button {
     display: block;
     margin: 30px auto;
     padding: 3px 5px;
-    width: 150px;
+    width: 100%;
     border: 1px solid #333;
     border-radius: 10px;
 }
 
 .col-1 button {
+    margin-top: 0;
     margin-left: 0;
+}
+
+.col-2 {
+    height: 100%;
+}
+
+.btn-col-3 {
+    height: 100%;
+    position: relative;
+}
+
+.btn-col-3 button {
+    margin-bottom: 0;
+    bottom: 10px;
+    width: 100%;
+    position: absolute;
 }
 
 .col button:hover {
@@ -192,13 +205,17 @@ li a:hover, .dropdown:hover .dropbtn {
     text-align: center;
 }
 
+.return-top:hover {
+    color: white;
+    background-color: #2537df;
+}
+
 .footer a {
     display: block;
-    text-decoration: none;
 }
 
 .footer {
-    padding: 15px 30px;
+    padding: 50px;
     background-color: #3c464b;
     color: white;
 }
