@@ -1,6 +1,5 @@
 # HTML&CSS Basic
 ---
-
 Kiến thức đã nắm được:
 * Các thẻ HTML cơ bản, cách dùng và ý nghĩa.
 * Các thuộc tính CSS cơ bản.
